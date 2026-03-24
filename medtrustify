@@ -2,38 +2,70 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>MedTrust Reviews - Honest Health Reviews</title>
+<title>MedTrustify - Honest Health Reviews</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Trusted reviews of health supplements, weight loss and wellness products.">
+<meta name="description" content="MedTrustify provides honest reviews of health supplements, weight loss products and wellness solutions.">
 
-<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: Arial; margin:0; background:#f4f4f4;}
+header {background:#0a2540; color:white; padding:20px; text-align:center;}
+.container {padding:20px;}
+.card {background:white; padding:20px; margin:15px 0; border-radius:10px;}
+.btn {background:#ff6600; color:white; padding:10px; text-decoration:none; border-radius:5px;}
+footer {background:#222; color:white; text-align:center; padding:15px;}
+</style>
+
+<!-- Product Schema -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org/",
+ "@type": "Product",
+ "name": "Audifort Supplement",
+ "image": "https://via.placeholder.com/300",
+ "description": "Natural hearing support supplement.",
+ "brand": {"@type": "Brand","name": "Audifort"},
+ "offers": {
+   "@type": "Offer",
+   "priceCurrency": "USD",
+   "price": "49",
+   "availability": "https://schema.org/InStock"
+ },
+ "aggregateRating": {
+   "@type": "AggregateRating",
+   "ratingValue": "4.5",
+   "reviewCount": "120"
+ }
+}
+</script>
+
 </head>
 
 <body>
 
 <header>
-  <h1>MedTrust Reviews</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="review.html">Reviews</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<h1>MedTrustify</h1>
+<p>Trusted Health Product Reviews</p>
 </header>
 
 <div class="container">
-  <h2>Top Health Product Reviews</h2>
 
-  <div class="card">
-    <h3>Audifort Review</h3>
-    <p>Is Audifort worth it? Read full honest review.</p>
-    <a href="review.html" class="btn">Read More</a>
-  </div>
+<div class="card">
+<h2>Audifort Review</h2>
+<p>Check if Audifort is really effective for hearing support.</p>
+<a href="audifort.html" class="btn">Read More</a>
+</div>
+
+<div class="card">
+<h2>Top Weight Loss Supplements 2026</h2>
+<p>Best fat burners that actually work.</p>
+<a href="#" class="btn">Explore</a>
+</div>
 
 </div>
 
 <footer>
-  <p>© 2026 MedTrust Reviews</p>
+<p>Contact: lalwanivarun526@gmail.com</p>
+<p>© 2026 MedTrustify</p>
 </footer>
 
 </body>
